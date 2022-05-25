@@ -1,47 +1,37 @@
-$bp_l: 1024px;
-$bp_s: 568px;
+// h1 {
+//   font-weight: 100;
+//   font-family: sans-serif;
+//   font-size: 12px;
+//   color: #fff;
+//   position: absolute;
+//   width: 100%;
+//   text-align: center;
+//   bottom: 10px;
+//   letter-spacing: 1px;
 
-body,
-html {
-  padding: 0;
-  margin: 0;
-  height: 100%;
-}
+//   .web {
+//     display: inline;
 
-h1 {
-  font-weight: 100;
-  font-family: sans-serif;
-  font-size: 12px;
-  color: #fff;
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  bottom: 10px;
-  letter-spacing: 1px;
+//     @media screen and (max-width: $bp-l) {
+//       display: none;
+//     }
+//   }
 
-  .web {
-    display: inline;
+//   .touch {
+//     display: none;
 
-    @media screen and (max-width: $bp-l) {
-      display: none;
-    }
-  }
+//     @media screen and (max-width: $bp-l) {
+//       display: inline;
+//     }
+//   }
 
-  .touch {
-    display: none;
-
-    @media screen and (max-width: $bp-l) {
-      display: inline;
-    }
-  }
-
-  @media screen and (max-width: $bp-s) {
-    top: 20px;
-    -webkit-transform: translateY(0%);
-    transform: translateY(0%);
-    font-size: 16px;
-  }
-}
+//   @media screen and (max-width: $bp-s) {
+//     top: 20px;
+//     -webkit-transform: translateY(0%);
+//     transform: translateY(0%);
+//     font-size: 16px;
+//   }
+// }
 
 .background {
   width: 100%;
